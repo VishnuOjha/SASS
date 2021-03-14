@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #383e56;
+  color: white;
+  font-family: 'Josef',sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  header h2 {
+    color: yellowgreen;
+    text-transform: capitalize; }
+    header h2:hover {
+      color: blueviolet; }
+  header p {
+    color: yellowgreen;
+    text-transform: capitalize; }

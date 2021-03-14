@@ -1,0 +1,14 @@
+{
+  "name": "practicesass",
+  "version": "1.0.0",
+  "description": "sass pratice module",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/pracsass.scss css/new.css -w"
+  },
+  "author": "vishnu ojha",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

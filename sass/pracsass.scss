@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        // Variable in Scss
+$textcolor: yellowgreen;
+        // Mixin In css
+@mixin commoncode{color: $textcolor; text-transform: capitalize}
+
+
+header{
+
+    width: 100%  - 20%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #383e56;
+    color: white;
+    font-family: 'Josef',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{ @include commoncode();
+            &:hover{color: blueviolet;}}
+
+    p{@include commoncode();}
+}
